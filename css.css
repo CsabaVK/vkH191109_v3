@@ -1,0 +1,35 @@
+/*
+*Elemszintű kiválasztó
+*/
+body{
+    margin: 0;
+    padding: 0;
+    
+    width: 100vw;
+    height: 100vh;
+}
+#grid{
+    height: inherit;
+    width: inherit;
+
+    display: grid;
+
+    grid-template-columns: 23% 1fr;
+    grid-template-rows: 1500px;
+
+    background-color: #708090;
+    color: white;
+
+    padding: 10px;
+
+    display: grid;
+    grid-template: 
+        "grid2_1": 20vw,
+        "grid2_2": 20vw
+}
+#grid2_1{
+    grid-area: grid2_1;
+}
+#grid2_2{
+    grid-area: grid2_2;
+}
